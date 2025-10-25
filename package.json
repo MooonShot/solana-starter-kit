@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node src/index.ts",
-    "airdrop": "ts-node src/airdrop.ts"
+    "airdrop": "ts-node src/airdrop.ts",
+    "transfer": "ts-node src/transfer.ts"
   },
   "keywords": [],
   "author": "",
