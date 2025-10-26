@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node src/index.ts",
     "airdrop": "ts-node src/airdrop.ts",
-    "transfer": "ts-node src/transfer.ts"
+    "transfer": "ts-node src/transfer.ts",
+    "mint": "ts-node src/splMint.ts"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
+    "@solana/spl-token": "^0.4.14",
     "@solana/web3.js": "^1.98.4"
   }
 }
